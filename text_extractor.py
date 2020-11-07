@@ -9,7 +9,6 @@ class TextExtractor:
 		self.content = ContentExtractor()
 		self.ocr = OCR()
 		self.text = []
-		self.speller = Speller()
 		
 	def extract_text(self, path):
 		self.file = path
